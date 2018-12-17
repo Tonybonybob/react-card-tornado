@@ -1,12 +1,21 @@
-import React from 'react';
+import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// const Hello = () =>{
+//     return 'hello world';
+// };
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// ПОДУМАЙ НАД ЭТИМ!!!!!!
+
+// class Hello extends Component{
+//     render(){
+//         return(
+//             <h1>Hello {this.props.text}</h1>
+//         )
+//     }
+// }
+
+ReactDOM.render(<App/>, document.getElementById('root'));
+
